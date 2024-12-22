@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{>metalink}}
+</head>
+
+<body>
+
+  {{>navbar}}
+{{!-- home section --}}
+  <div class="container-fluid mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          {{!-- left side --}}
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-item-start flex-column">
+            <h1>WE WILL HELP YOU TO</h1>
+            <h1>GROW YOUR BUSINESS</h1>
+            <P>We Are The Team Of <span class="bold-style">Professinal Developer</span><i class="fa-solid fa-laptop-code"></i></P>
+            <button class="btn-style btn-primary">Read More</button>
+          </div>
+          
+          {{!-- right side --}}
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0 ">
+            <figure>
+              <img src="images/growth.svg" alt="herosection">
+            </figure>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+  {{!-- home section --}}
+
+  {{!-- about section --}}
+   {{>about}}
+  {{!-- about section --}}
+
+  {{!-- about section --}}
+   {{>service}}
+  {{!-- about section --}}
+
+  {{!-- map section --}}
+   {{>map}}
+  {{!-- map section --}}
+
+  {{!-- contact us section --}}
+   {{>contact}}
+  {{!-- contact us section --}}
+
+ {{!-- contact us section --}}
+   {{>footer}}
+  {{!-- contact us section --}}
+
+  <script src="../jq/jquery.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+
+</html>
